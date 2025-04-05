@@ -1,0 +1,27 @@
+.input-group {
+    &.input-group-search {
+        border: 1px solid var(--bs-border-color);
+        border-radius: var(--bs-border-radius);
+        .input-group-text {
+            padding-right: 0;
+            border: none;
+        }
+        .form-control {
+            border: none;
+            background: transparent;            
+        }
+        &:focus {
+            border-color: var(--bs-primary);
+        }
+    }
+}
+textarea.form-control {
+    height: auto;
+}
+.card {
+    .datatable-filter {
+        select {
+            min-width: 7rem;
+        }
+    }
+}

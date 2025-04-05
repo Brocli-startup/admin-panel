@@ -1,0 +1,14 @@
+.btn-group {
+    .btn {
+        &:not(:disabled):not(.disabled) {
+            cursor: pointer;
+        
+            &:active,
+            &.active {
+                background: rgba($component-active-bg, .1);
+                color: $component-active-bg;
+        
+            }
+        }
+    }
+}
